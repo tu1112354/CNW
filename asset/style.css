@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 30px 80px;
+}
+
+
+.header {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo-name {
+    display: block;
+    border: 1px solid #000;
+    width: 138px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.logo-img {
+    width: 130px;
+    padding: 5px;
+    border: 3px solid #000;
+    margin-left: 4px;
+}
+
+.logo-meter {
+    display: block;
+    border: 1px solid #000;
+    width: 138px;
+    text-align: center;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-main-logo {
+    width: 80px;
+    position: absolute;
+    left: 265px;
+}
+
+.header-main-text1 {
+    font-weight: 700;
+}
+
+.header-main-text2 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header-main-text3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-right-text1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 24px;
+    position: absolute;
+    right: 22px;
+}
+
+.header-right-sub-text1 {
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 26px;
+    right: 0;
+}
+
+.header-right-text2 {
+    font-size: 26px;
+    font-weight: 700;
+    border: 3px solid #000;
+    width: 48px;
+    padding-left: 7px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.content {
+    height: 600px;
+    margin-top: 18px;
+    display: flex;
+}
+
+.rider-content-header {
+
+}
+
+.rider-content {
+    width: 98%;
+    font-size: 14px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    height: 100px;
+}
+
+.footer-text1 {
+    font-size: 10px;
+}
+
+.footer-text4 {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.footer-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+
+}
+
+.footer-text2 {
+
+}
+
+.footer-tissot {
+    font-weight: 800;
+}
+
+.footer-text3 {
+
+}
+
+.footer-text5 {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-right {
+
+}
+
+.footer-logo1 {
+    width: 100px;
+}
+
+.footer-logo2 {
+    width: 130px;
+    margin-left: 32px;
+}
+
